@@ -57,19 +57,31 @@ h2 {
 
 .two_box {
     display: flex;
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
 }
 
-.pro {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-    margin-right: 20%;
+.bottom_width {
+    width: 50%;
+    padding-left: 10%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
 }
 
 .baby {
+    box-shadow: 10px 10px 40px slategray;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.pro {
+    box-shadow: 10px 10px 40px slategray;
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+
+.footer {
+    text-align: center;
 }
